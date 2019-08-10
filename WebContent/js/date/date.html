@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<link href="jquery-ui-1.7.3.custom.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.3.2.min.js"></script>
+<script src="ui.datepicker.js"></script>
+<script src="zn_datepicker.js"></script>
+<script>
+  $(function() {
+		
+		$(".time").datepicker({
+				showHms:true,/*是否显示时分秒*/
+				changeMonth: false,
+				changeYear: false,
+				dateFormat:'yy-mm-dd',
+				buttonImageOnly: true,
+				showOn: 'both',
+				showButtonPanel:true // must 
+		
+		});
+	});
+
+  </script>
+
+</head>
+<body style="font-size:62.5%;">
+  
+<div id="datepicker"></div>
+	<input type="text" class="time" name="" />
+</body>
+</html>

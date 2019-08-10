@@ -1,0 +1,22 @@
+﻿.ml
+{ width:100px;
+  font-size:20px;
+  height:40px;  
+    }
+.ml:link { text-decoration:none;
+           background-color:White;
+           color:#7a7a7a;
+             }		/* 未被访问的链接 */
+.ml:visited {text-decoration:none;
+             color:#7a7a7a;
+               }	/* 已被访问的链接 */
+.ml:hover 
+{
+    background-color:Red;
+    color:White;
+             
+             }	/* 鼠标指针移动到链接上 */
+.ml:active {text-decoration:none;
+            background-color:Red;
+            color:White;
+              }	/* 正在被点击的链接 */    

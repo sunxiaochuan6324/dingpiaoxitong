@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginSvlt</servlet-name>
+    <servlet-class>dp.svlt.LoginSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>dp.admin.svlt.Add</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdSvlt</servlet-name>
+    <servlet-class>dp.admin.svlt.UpdSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Del</servlet-name>
+    <servlet-class>dp.admin.svlt.Del</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CkSvlt</servlet-name>
+    <servlet-class>dp.admin.svlt.CkSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Init</servlet-name>
+    <servlet-class>dp.admin.svlt.Init</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutSvlt</servlet-name>
+    <servlet-class>dp.svlt.LogoutSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePwd</servlet-name>
+    <servlet-class>dp.svlt.ChangePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetZdByTid</servlet-name>
+    <servlet-class>dp.admin.svlt.GetZdByTid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitLoginSvlt</servlet-name>
+    <servlet-class>dp.svlt.InitLoginSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegSvlt</servlet-name>
+    <servlet-class>dp.svlt.RegSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CusCkSvlt</servlet-name>
+    <servlet-class>dp.svlt.CusCkSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DpSvlt</servlet-name>
+    <servlet-class>dp.svlt.DpSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DpListSvlt</servlet-name>
+    <servlet-class>dp.svlt.DpListSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HandlePiaoSvlt</servlet-name>
+    <servlet-class>dp.svlt.HandlePiaoSvlt</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginSvlt</servlet-name>
+    <url-pattern>/LoginSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdSvlt</servlet-name>
+    <url-pattern>/UpdSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Del</servlet-name>
+    <url-pattern>/Del</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CkSvlt</servlet-name>
+    <url-pattern>/CkSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Init</servlet-name>
+    <url-pattern>/Init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutSvlt</servlet-name>
+    <url-pattern>/LogoutSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwd</servlet-name>
+    <url-pattern>/ChangePwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetZdByTid</servlet-name>
+    <url-pattern>/GetZdByTid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitLoginSvlt</servlet-name>
+    <url-pattern>/InitLoginSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegSvlt</servlet-name>
+    <url-pattern>/RegSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CusCkSvlt</servlet-name>
+    <url-pattern>/CusCkSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DpSvlt</servlet-name>
+    <url-pattern>/DpSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DpListSvlt</servlet-name>
+    <url-pattern>/DpListSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandlePiaoSvlt</servlet-name>
+    <url-pattern>/HandlePiaoSvlt</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

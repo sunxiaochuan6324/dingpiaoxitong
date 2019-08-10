@@ -1,0 +1,106 @@
+﻿body
+{
+    font-size: .80em;
+    font-family: "宋体";
+    margin: 0px;
+    padding: 0px;
+    color: #505050;
+    overflow: hidden;
+}
+
+input
+{
+    font-family: "宋体";
+    color: #306090;
+}
+
+select
+{
+    font-family: "宋体";
+    color: #303060;
+}
+
+.header
+{
+    width: 100%;
+    position: relative;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background: #4b6c9e;
+}
+
+.toolbar
+{
+    background-image:url('../Images/bar2.jpg');
+    margin: 0px 0px 0px 0px;
+    padding: 0px 4px 0px 4px;
+    line-height: 32px;
+}
+
+.toolbar input
+{
+    color: #505050;
+}
+
+.edit
+{
+    width: 100%;
+    margin: 0px auto 0px auto;
+    border: 0px;
+    overflow: auto;
+    position: relative;
+}
+
+.header h1
+{
+    margin: 0px;
+    padding: 0px 0px 0px 8px;
+    color: #F9F9F9;
+    border: none;
+    line-height: 24px;
+    font-size: 10pt;
+    font-family: 微软雅黑;
+}
+
+a:link, a:visited
+{
+    color: #505050;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #505050;
+    text-decoration: none;
+}
+
+.edittd
+{
+    border-left-style: solid;
+    border-width: 1px;
+    border-color:#C0C0C0;
+    height: 30px;
+}
+
+.browtd
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#C0C0C0;
+    height: 25px;
+}
+
+.browshead
+{
+    background-color: #fff;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    overflow:hidden;
+    position: absolute;
+}

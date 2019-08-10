@@ -1,0 +1,7 @@
+table.mytable{  
+border-collapse: collapse;
+}
+table.mytable th{background: #4089cd;}
+table.mytable td{border: 1px solid #1F74CC;
+padding: 5px;
+}

@@ -1,0 +1,67 @@
+body
+{
+    background-image:url('/img/b.jpg');
+    }
+.tp
+{
+    text-decoration:none;
+    color:#7a7a7a;
+    }
+.tp:link { text-decoration:none;
+              color:#7a7a7a;
+             }	
+.tp:visited {text-decoration:none;
+               color:#7a7a7a;
+               }	
+.tp:hover {text-decoration:none;
+             color:#7a7a7a;
+             }	
+.tp:active {text-decoration:none;
+              color:#7a7a7a;
+              }	
+.tp2
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.tp2:link { text-decoration:none;
+             color:White;
+             }		
+.tp2:visited {text-decoration:none;
+              color:White;
+               }	
+.tp2:hover {text-decoration:none;
+             color:White;
+             }	
+.tp2:active {text-decoration:none;
+             color:White;
+              }	            
+.tp3
+{
+    text-decoration: none;
+    color: #663300;
+    font-size: 20px;
+    line-height: 40px;
+}
+.tp4
+{
+    text-decoration: none;
+    color: #996633;
+    font-size: 15px;
+    line-height: 20px;
+}
+.tp4:link { text-decoration:none;
+             color: #996633;
+             }		
+.tp4:visited {text-decoration:none;
+              color: #996633;
+               }	
+.tp4:hover
+{
+    text-decoration: none;
+    color: #663300;
+}	
+.tp4:active {text-decoration:none;
+             color:#663300;
+              }	
